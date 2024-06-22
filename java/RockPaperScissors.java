@@ -1,4 +1,4 @@
-
+package java;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -31,6 +31,8 @@ public class RockPaperScissors {
         } else {
             System.out.println("Computer wins!");
         }
+        scanner.close();
+
     }
 }
 
